@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang- "eng">
+
+    <html>
+
+        <body>
+
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="fixtures.html">Fixtures</a>
+    <a href="course.html">Course</a>
+    <a href="clubhouse.html">Clubhouse</a>
+    <a href="contacts.html">Contacts</a>
+    <a href="welcome.html">Welcome</a>
+    <a href="homepage.html">Home</a>
+  </div>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Membership prices</h2>
+
+<table>
+  <tr>
+    <th>Current members</th>
+    <th>£595.00</th>
+  </tr>
+  <tr>
+    <td>First year member</td>
+    <td>£495.00</td>
+  </tr>
+  <tr>
+    <td>Juniors under age 13</td>
+    <td>Free</td>
+  </tr>
+  <tr>
+    <td>Juniors between 13 and 17</td>
+    <td>£70.00</td>
+  </tr>
+  <tr>
+    <td>Full-time student (18 to 21 years)</td>
+    <td>£200.00</td>
+  </tr>
+  <tr>
+    <td>Student in work (18 to 21 years)</td>
+    <td>£200.00</td>
+  </tr>
+  <tr>
+    <td>Ages 18 to 25</td>
+    <td>£325.00</td>
+  </tr>
+  </tr>
+    <td>Ages 26 to 35</td>
+    <td>£430.00</td>
+  </tr>
+  </tr>
+   <td>Second club membership</td>
+  <td>£325.00</td>
+  </tr>
+  </tr>
+   <td>Sports/Summer membership</td>
+   <td>£350.00</td>
+</table>
+
+<html>
+<head>
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #0a0a0a;} 
+.button2 {background-color: #0f0f0f;} 
+</style>
+</head>
+<body>
+
+<a href="http://www.club-noticeboard.co.uk/suttonbridge/MEMBERSHIP%20OPTIONS%202021.pdf"target = "new"><button class="button button1">Membership Form</button> </a>
+<a href="http://www.club-noticeboard.co.uk/suttonbridge/member%20application%20form.pdf"target = "new"><button class="button button2">Application Form</button> </a>
+     
+</body>
+</html>
